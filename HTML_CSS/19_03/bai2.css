@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+.banner {
+
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+.banner:hover {
+    box-shadow: 0 0 12px 0px black;
+}
+
+.logo {
+    width: 20%;
+    left: 4vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iconmenu {
+    right: 4vw;
+    text-align: end;
+
+}
+
+.logo,
+.iconmenu {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2vh;
+}
+
+.tittle {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+}
+
+.tittle:hover {
+    box-shadow: 0 0 4px 0 black;
+}
+
+.hideScroll {
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none;
+}
+
+.hideScroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.inputBox {
+    width: max-content;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    margin-top: -41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 13px 22px;
+    box-shadow: 0 0 9px -2px black;
+    border-radius: 12px;
+
+}
+
+.inputBox * {
+    margin-right: 10px;
+}
+
+.inputBox input {
+    border-radius: 5px;
+    border: solid 1px rgb(166, 166, 166);
+    height: 30px;
+}
+
+.inputBox label {
+    font-weight: bold;
+
+}
+
+input, button, b {
+    cursor: grab;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+}
+.content {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+}

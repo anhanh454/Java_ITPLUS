@@ -1,0 +1,49 @@
+body{
+    background-color: darkgrey;
+    color: white;
+ }
+ .menu{
+     display: block;
+ }
+ .menu4{
+     display: flex;
+ }
+ .anh1{
+     width: 100px;
+     height: 100px;
+     margin-top: 30px;
+     margin-left: 20px;
+ }
+ .menu3{
+     width: 85%;
+     height: 100vh; /* 100% chiều cao của viewport */
+     background-image: url('1(37).jpg');
+     background-size: cover; /* Để hình ảnh bao phủ toàn bộ kích thước của phần tử */
+     background-position: center; /* Căn giữa hình ảnh */
+     background-repeat: no-repeat; /* Ngăn chặn lặp lại hình ảnh */
+ }
+ ul.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+ul.horizontal-list li {
+    float: left;
+    margin-right: 10px;
+}
+ul.horizontal-list li:last-child {
+    margin-right: 0;
+}
+ul.horizontal-list li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ul.horizontal-list li a:hover {
+    background-color: #e0e0e0;
+}
