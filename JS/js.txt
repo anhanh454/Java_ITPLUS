@@ -1,0 +1,12 @@
+Biến:
+1. Viết một chương trình JavaScript để khai báo một biến có tên là myNumber và gán cho nó một giá trị số bất kỳ. Sau đó, in ra giá trị của biến này.
+2. Viết một chương trình JavaScript để khai báo một biến có tên là myString và gán cho nó một chuỗi bất kỳ. Sau đó, in ra độ dài của chuỗi đó.
+3. Viết một chương trình JavaScript để khai báo một biến có tên là isMale và gán cho nó một giá trị boolean (true hoặc false). Sau đó, kiểm tra nếu giá trị của biến là true thì in ra "Người này là nam giới", ngược lại in ra "Người này không phải là nam giới".
+Cấu trúc điều kiện:
+1. Viết một chương trình JavaScript để kiểm tra một số có phải là số chẵn hay không. Nếu là số chẵn thì in ra "Số chẵn", ngược lại in ra "Số lẻ".
+2. Viết một chương trình JavaScript để kiểm tra một số có phải là số nguyên dương hay không. Nếu là số nguyên dương thì in ra "Số nguyên dương", ngược lại in ra "Không phải số nguyên dương".
+3. Viết một chương trình JavaScript để kiểm tra một năm có phải là năm nhuận hay không. Năm nhuận là năm chia hết cho 4 nhưng không chia hết cho 100, hoặc là năm chia hết cho 400.
+Cấu trúc lặp:
+1. Viết một chương trình JavaScript để tính tổng các số từ 1 đến n (n là một số nguyên dương được nhập từ bàn phím) bằng cách sử dụng vòng lặp for.
+2. Viết một chương trình JavaScript để tính giai thừa của một số n (n là một số nguyên dương được nhập từ bàn phím) bằng cách sử dụng vòng lặp while.
+3. Viết một chương trình JavaScript để in ra bảng cửu chương từ 2 đến 9 bằng cách sử dụng vòng lặp lồng nhau.
