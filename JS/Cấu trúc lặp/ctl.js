@@ -1,4 +1,4 @@
-var n = prompt("Nhập một số nguyên dương:");
+var n = +prompt("Nhập một số nguyên dương:");
 n = parseInt(n);
 
 /*1. Viết một chương trình JavaScript để tính tổng các số từ 1 đến n
