@@ -45,7 +45,7 @@ function kiemTraNamNhuan(year)
     }
 }
 
-var soCanKiemTra = prompt("Nhập số: ");
+var soCanKiemTra = +prompt("Nhập số: ");
 soCanKiemTra = parseInt(soCanKiemTra);
 if(isNaN(soCanKiemTra))
 {
