@@ -3,7 +3,7 @@ Nếu là số chẵn thì in ra "Số chẵn", ngược lại in ra "Số lẻ"
 
 function kiemTraChanLe(number)
 {
-    if(number %2 === 0)
+    if(number %2 == 0)
     {
         console.log(number + " là số chẵn");
     }
@@ -35,7 +35,7 @@ Năm nhuận là năm chia hết cho 4 nhưng không chia hết cho 100, hoặc 
 
 function kiemTraNamNhuan(year)
 {
-    if(year % 4 === 0 && year % 100 !== 0 || (year % 400 === 0))
+    if(year % 4 == 0 && year % 100 != 0 || (year % 400 == 0))
     {
         console.log(year + " là năm nhuận");
     }
